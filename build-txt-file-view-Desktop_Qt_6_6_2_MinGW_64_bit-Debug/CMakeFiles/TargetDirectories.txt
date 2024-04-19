@@ -1,0 +1,9 @@
+C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/txt-file-view.dir
+C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/txt-file-view_autogen_timestamp_deps.dir
+C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/txt-file-view_autogen.dir

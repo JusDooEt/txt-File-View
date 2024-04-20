@@ -1,6 +1,10 @@
 # Txt File View
-![image](https://github.com/JusDooEt/txt-File-View/assets/152052216/2fb2df57-a2d7-4630-9335-1b3b7ba67657)
+<!--Version 1 Build Image: ![image](https://github.com/JusDooEt/txt-File-View/assets/152052216/2fb2df57-a2d7-4630-9335-1b3b7ba67657)-->
+![image](https://github.com/JusDooEt/txt-File-View/assets/152052216/2f9a8ea0-ae21-4fbe-a47a-58b88ff301df)
 
+## Newest Additions
+- The files are now sorted by the date they were last modified. The order will be from newest to oldest files.
+- A constant member variable called MAX_FILES has been added to allow the developer to control how many files to display in the UI.
 ## About
 this program is meant to be used as a template for other projects that require a Qt widget class that can display multiple .txt files in a chosen directory and their contents. This class can easily be converted to look for csv file etc as long as the contents of the files is text. To use this program, create a directory (folder) named "txtFiles" in the build folder of your Qt project. Then, add all the files you want the program to read and display into the newly created "txtFiles" folder. You can also set the program to create new .txt files within this folder that can also be read by this class.
 
@@ -22,7 +26,8 @@ this program is meant to be used as a template for other projects that require a
 ## Methods
 ### Public Slots
 - void createList()
-  - This method is meant to initialize the "fileNames" QStringList member with the names of the txt files within the "txtFiles" directory. If the directory is not found then the method will output an error message to the console and exit the method before searching for any files.
+  - This method is meant to initialize the "fileNames" QFileInfoList member with file information of files within the "txtFiles" directory. If the directory is not found then the method will output an error message to the console and exit the method before searching for any files.
+  - The QFileInfoList will be sorted based on file date values. Newest files will be at the front of the list.
 - void initializeFileListWidget‎()
   - This method uses the "fileNames" member to add interactable items representing individual files to the list widget component in the UI with the text matching the file's name. 
 - void onDisplayContents(QString fileName)

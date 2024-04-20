@@ -4,6 +4,7 @@
 
 ## Newest Additions
 - The files are now sorted by the date they were last modified. The order will be from newest to oldest files.
+- The date the file was last modified is now displayed under the file's name in the UI.
 - A constant member variable called MAX_FILES has been added to allow the developer to control how many files to display in the UI.
 ## About
 this program is meant to be used as a template for other projects that require a Qt widget class that can display multiple .txt files in a chosen directory and their contents. This class can easily be converted to look for csv file etc as long as the contents of the files is text. To use this program, create a directory (folder) named "txtFiles" in the build folder of your Qt project. Then, add all the files you want the program to read and display into the newly created "txtFiles" folder. You can also set the program to create new .txt files within this folder that can also be read by this class.

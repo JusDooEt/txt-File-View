@@ -43,20 +43,29 @@ void FileView::createList()
 
     QDir dir("txtFiles");
     path = dir;
-    fileNames = path.entryList(QStringList() << "*.txt" << "*.TXT",QDir::NoDotAndDotDot | QDir::Files);
+
+    // Create lists for files
+    //fileNames = path.entryList(QStringList() << "*.txt" << "*.TXT",QDir::NoDotAndDotDot | QDir::Files, QDir::Time);
+    fileInfoList = path.entryInfoList(QDir::NoDotAndDotDot | QDir::Files, QDir::SortFlag::Time);
 
     // Debugging
-    foreach (QString name, fileNames) {
-        qInfo() << "-----------------------";
-        qInfo() << "Name: " << name;
+    // foreach (QString name, fileNames) {
+    //     qInfo() << "-----------------------";
+    //     qInfo() << "Name: " << name;
+    // }
+    foreach (auto fileInfo, fileInfoList)
+    {
+        qInfo() << fileInfo.fileName() << fileInfo.lastModified().toString();
     }
 }
 
 void FileView::initializeFileListWidget()
 {
-    foreach(QString file, fileNames)
+    int i = 0;
+    while(i < fileInfoList.size() && i < MAX_FILES)
     {
-        ui->fileList->addItem(file + '\n');
+        ui->fileList->addItem(fileInfoList[i].fileName() + '\n' + fileInfoList[i].lastModified().toString() + '\n');
+        i++;
     }
 }
 
@@ -148,6 +157,6 @@ void FileView::on_fileList_clicked(const QModelIndex &index)
 {
     qInfo() << index.row();
 
-    emit displayContents(fileNames[index.row()]);
+    emit displayContents(fileInfoList[index.row()].fileName());
 }
 

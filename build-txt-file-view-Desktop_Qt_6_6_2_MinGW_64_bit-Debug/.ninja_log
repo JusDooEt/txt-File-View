@@ -33,3 +33,12 @@
 176	2075	7353594536838817	CMakeFiles/txt-file-view.dir/widget.cpp.obj	471552869fc46c2d
 179	2726	7353594543333512	CMakeFiles/txt-file-view.dir/fileview.cpp.obj	fd595a3ce256cc2b
 2726	2931	7353594545375380	txt-file-view.exe	ba304d55b4d7b001
+4	601	7353597570583775	txt-file-view_autogen/timestamp	2484741d54e40905
+4	601	7353597570583775	txt-file-view_autogen/mocs_compilation.cpp	2484741d54e40905
+4	601	7353597570583775	C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/txt-file-view_autogen/timestamp	2484741d54e40905
+4	601	7353597570583775	C:/Qt_Projects/txt-File-View/build-txt-file-view-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/txt-file-view_autogen/mocs_compilation.cpp	2484741d54e40905
+608	2551	7353597590566821	CMakeFiles/txt-file-view.dir/main.cpp.obj	b4f2a37116e24c5
+606	2581	7353597590867084	CMakeFiles/txt-file-view.dir/widget.cpp.obj	471552869fc46c2d
+601	2621	7353597591267463	CMakeFiles/txt-file-view.dir/txt-file-view_autogen/mocs_compilation.cpp.obj	29034e49876de54b
+604	3275	7353597597793492	CMakeFiles/txt-file-view.dir/fileview.cpp.obj	fd595a3ce256cc2b
+3275	3490	7353597599935437	txt-file-view.exe	ba304d55b4d7b001

@@ -28,6 +28,7 @@ public slots:
     void onDisplayContents(QString fileName);
     void testList(QString path, bool recursive = false);
     void testModify(QDir root);
+    //void onDateSort
 
 signals:
     void displayContents(QString fileName);
@@ -38,8 +39,10 @@ private slots:
 private:
     Ui::FileView *ui;
     QDir        path;
-    QStringList fileNames;
+//    QStringList fileNames;
+    QVector<QFileInfo> fileInfoList;
 
+    const int MAX_FILES = 30;
 };
 
 #endif // FILEVIEW_H

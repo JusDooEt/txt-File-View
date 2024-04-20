@@ -37,5 +37,8 @@ this program is meant to be used as a template for other projects that require a
 - void on_fileList_clicked(const QModelIndex &index)
   - This method is executed when one of the items contained in the list widget component is clicked.
   - The method emits a signal that executes onDisplayContents(QString fileName).
-  - The correct fileName is sent depending on the index of the item that was clicked. 
+  - The correct fileName is sent depending on the index of the item that was clicked.
+ 
+## Warnings
+- The date sorting algorithm does not take into account for miliseconds. Create a new algorithm that does and has the same efficiency as the current algorithm.
 
